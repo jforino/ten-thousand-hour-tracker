@@ -6,6 +6,33 @@
     <title>10,000 Hour Tracker</title>
 </head>
 <body>
-    
+
+    <div id="total-hours-container">
+        <h1>Total Hours Left: </h1>
+        <h2>Total Hours Completed So Far: </h2>
+        <h4>Total Business Hours: </h3>
+        <h4>Total Development Hours: </h3>
+    </div>
+
+    <div id="add-input-container">
+        <button id="log-today-btn">Log Today</button>
+    </div>
+
+    <form id="log-today-form">
+        <label for="todays-date">Today's Date: </label>
+        <input type="date" name="todays-date" id="todays-date">
+
+        <div>
+            <label for="business-hours-today">Business Hours I completed today: </label>
+            <input type="number" name="business-hours-today" id="business-hours-today">
+        </div>
+
+        <div>
+            <label for="development-hours-today">Development Hours I completed today: </label>
+            <input type="number" name="development-hours-today" id="development-hours-today">
+        </div>
+        
+    </form>
+
 </body>
 </html>
