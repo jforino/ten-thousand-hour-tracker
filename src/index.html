@@ -18,7 +18,7 @@
         <button id="log-today-btn">Log Today</button>
     </div>
 
-    <form id="log-today-form">
+    <form id="log-today-form" style="display: none;">
         <label for="todays-date">Today's Date: </label>
         <input type="date" name="todays-date" id="todays-date">
 
@@ -31,6 +31,9 @@
             <label for="development-hours-today">Development Hours I completed today: </label>
             <input type="number" name="development-hours-today" id="development-hours-today">
         </div>
+
+        <div><label for="todays-notes">Notes For Today's Log: </label></div>
+        <textarea name="todays-notes" id="todays-notes" rows="4" cols="50"></textarea>
         
     </form>
 
